@@ -12,6 +12,7 @@ import {
     ButtomContainer,
     Buttom
 } from "./styles";
+import Home from "../Home";
 
 export default function Login() {
     return (
@@ -36,7 +37,7 @@ export default function Login() {
                     />
                 </InputContainer>
 
-                <LoginButtom>
+                <LoginButtom source={Home}>
                     <ButtomIdentifier>ENTRAR</ButtomIdentifier>
                 </LoginButtom>
                 <ButtomContainer>
